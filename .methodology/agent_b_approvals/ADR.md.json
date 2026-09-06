@@ -1,0 +1,33 @@
+{
+  "fr": "ADR.md",
+  "review_status": "APPROVE",
+  "reason": "ADR.md contains 18 decisions covering runtime (ADR-001), layering (ADR-002), web framework (ADR-003), persistence boundary (ADR-004), schema evolution (ADR-005), subprocess execution (ADR-006), auth (ADR-007), rate limiting (ADR-008), error model (ADR-009), pagination (ADR-010), redaction (ADR-011), CORS (ADR-012), drain (ADR-013), verify-system (ADR-014), import-linter (ADR-015), configuration (ADR-016), mutation scope (ADR-017), and zero-skip policy (ADR-018). Every ADR has Status, Context, Decision, Alternatives considered, Consequences. Decisions are grounded in SAD §1.1 verification target, §4 NFR handling, §6 security_design T-01..T-10 and SRS FR-01..FR-10 / NFR-01..NFR-12 — no orphan decisions. Alternatives considered are concrete and reject decisions are traceable to NFR constraint",
+  "citations": [
+    "02-architecture/adr/ADR.md:9",
+    "02-architecture/adr/ADR.md:41",
+    "02-architecture/adr/ADR.md:73",
+    "02-architecture/adr/ADR.md:103",
+    "02-architecture/adr/ADR.md:140",
+    "02-architecture/adr/ADR.md:178",
+    "02-architecture/adr/ADR.md:215",
+    "02-architecture/adr/ADR.md:249",
+    "02-architecture/adr/ADR.md:279",
+    "02-architecture/adr/ADR.md:311",
+    "02-architecture/adr/ADR.md:339",
+    "02-architecture/adr/ADR.md:367",
+    "02-architecture/adr/ADR.md:392",
+    "02-architecture/adr/ADR.md:419",
+    "02-architecture/adr/ADR.md:447",
+    "02-architecture/adr/ADR.md:476",
+    "02-architecture/adr/ADR.md:504",
+    "02-architecture/adr/ADR.md:530",
+    "02-architecture/adr/ADR.md:458",
+    "02-architecture/adr/ADR.md:516"
+  ],
+  "docs_embedded": [
+    "SRS.md",
+    "SAD.md",
+    "ADR.md"
+  ],
+  "confidence": 0.9
+}

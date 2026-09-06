@@ -1,0 +1,35 @@
+{
+  "fr": "TEST_SPEC.md",
+  "review_status": "APPROVE",
+  "reason": "TEST_SPEC.md satisfies the derive_test_cases.md protocol: every FR from SRS §3 has an entry with ≥1 happy_path + ≥1 validation/boundary/fault row, every TEST_INVENTORY.yaml naming-authority function is preserved verbatim (51 FR rows + 35 NFR rows = 86 in YAML; 96 in TEST_SPEC because Step 1c adds 10 SEC rows T-01..T-10), Step 1b/1c/1d are all in place (SAD: runner semaphore + rate_bucket lock + db pool force NP-13/NP-15/NP-07; SEC threats T-01..T-10 each have a row in the named owning FR table with verified_by names verbatim from SAD.md §6; AC-N1.1..AC-N12.2 all appear in the Citation Trail), Inputs columns are in TRUE `key=\"value\"` form (not pytest-id), check-test-spec-consistency returned 0 contradictions and check-property-spec returned OK with the one FR-07 symbolic property flagged ne",
+  "citations": [
+    "02-architecture/TEST_SPEC.md:20",
+    "02-architecture/TEST_SPEC.md:28",
+    "02-architecture/TEST_SPEC.md:46",
+    "02-architecture/TEST_SPEC.md:60",
+    "02-architecture/TEST_SPEC.md:65",
+    "02-architecture/TEST_SPEC.md:81",
+    "02-architecture/TEST_SPEC.md:91",
+    "02-architecture/TEST_SPEC.md:106",
+    "02-architecture/TEST_SPEC.md:112",
+    "02-architecture/TEST_SPEC.md:184",
+    "02-architecture/TEST_SPEC.md:219",
+    "02-architecture/TEST_SPEC.md:232",
+    "02-architecture/TEST_SPEC.md:246",
+    "02-architecture/TEST_SPEC.md:319",
+    "02-architecture/TEST_SPEC.md:338",
+    "02-architecture/TEST_SPEC.md:375",
+    "02-architecture/TEST_SPEC.md:382",
+    "02-architecture/TEST_SPEC.md:416",
+    "02-architecture/TEST_SPEC.md:420",
+    "02-architecture/TEST_SPEC.md:425"
+  ],
+  "docs_embedded": [
+    "SRS.md",
+    "SAD.md",
+    "TEST_SPEC.md",
+    "ADR.md",
+    "TEST_INVENTORY.yaml"
+  ],
+  "confidence": 0.9
+}
